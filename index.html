@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Photo Gallery</h1>
+    </header>
+    <section class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="architecture">Architecture</button>
+        <button data-filter="animal">Animal</button>
+    </section>
+    <section class="gallery">
+        <div class="gallery-item" data-category="nature">
+            <img src="images\pexels-therato-3408744.jpg" alt="Nature Image 1">
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="images\pexels-pixabay-268533.jpg" alt="Nature Image 1">
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="images\pexels-pixabay-33109.jpg" alt="Nature Image 1">
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="images/pexels-pixabay-462162.jpg" alt="Nature Image 1">
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="images\pexels-luisdelrio-15286.jpg" alt="Nature Image 2">
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="images\pexels-felixmittermeier-957024.jpg" alt="Nature Image 1">
+        </div>
+        <div class="gallery-item" data-category="architecture">
+            <img src="images\images (5).jpg" alt="Architecture Image 1">
+        </div>
+        <div class="gallery-item" data-category="architecture">
+            <img src="images\images (6).jpg" alt="Architecture Image 1">
+        </div>
+        <div class="gallery-item" data-category="architecture">
+            <img src="images\images (7).jpg" alt="Architecture Image 2">
+        </div>
+        <div class="gallery-item" data-category="architecture">
+            <img src="images\istockphoto-1328633577-612x612.jpg" alt="Architecture Image 2">
+        </div>
+        <div class="gallery-item" data-category="architecture">
+            <img src="images\vanke_triple_v_gallery_m200712_2 (2).jpg" alt="People Image 2">
+        </div>
+        <div class="gallery-item" data-category="animal">
+            <img src="images\images (1).jpg" alt="Animal Image 1">
+        </div>
+        <div class="gallery-item" data-category="animal">
+            <img src="images\images (2).jpg" alt="Animal Image 1">
+        </div>
+        <div class="gallery-item" data-category="animal">
+            <img src="images\images (3).jpg" alt="Animal Image 1">
+        </div>
+        <div class="gallery-item" data-category="animal">
+            <img src="images\images (4).jpg" alt="Animal Image 1">
+        </div>
+        <div class="gallery-item" data-category="animal">
+            <img src="images\images.jpg" alt="Animal Image 1">
+        </div>
+        
+        
+    </section>
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
